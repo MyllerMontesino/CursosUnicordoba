@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen&display=swap');
+
+header{
+    padding: 1rem;
+    font-family: 'Sen', sans-serif;
+    color: rgb(0, 0, 0);
+    background: linear-gradient(to right,  rgb(67, 67, 68),rgb(216, 240, 247), rgb(86, 88, 88));
+    text-align: center;
+    
+}
+.stik{
+    
+    background-color: #000000;
+    margin: 0;
+    margin-top: -8px;
+
+}
+
+
+.stik a{
+    
+    text-align: center;
+    color: white;
+    margin: 1rem;
+
+}
+nav{
+    
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    position: relative;
+    
+}
+iframe{
+    margin:auto;
+    display: inline;
+}
+
+.container{
+    margin: 0px;
+    background: linear-gradient(to top, rgb(191, 238, 255),rgb(221, 221, 221));
+}
+
+header p{
+    text-align: center;
+    font-size: 1.2em;
+    color: rgb(0, 0, 0);
+}
+.titulo h1 {
+    left: 1rem;
+    font-size: 5em;
+}
+
+.card{
+    text-align: left;
+    margin: 1.5rem;
+    margin-left: 0;
+}
+
+
+article .card p{
+
+    font-size: 1rem;
+}
+
+.interesado{
+    position: relative;
+    display: flex;
+    margin: 3rem;
+    border: 2px solid rgb(129, 129, 129);
+}
+
+
+article h2{
+    color: black;
+    padding: 1.5rem;
+    background: linear-gradient(to right,  rgb(156, 155, 157),rgb(255, 255, 255));
+}
+img{
+    padding: 0.5rem;
+}
+
+
+
+article{
+    font-family: 'Sen', sans-serif;
+    font-size: 1.3em;
+    padding: 1rem;
+    display: flex;
+}
+aside{
+    text-align: center;
+display: flex;
+position: sticky;
+top: 0;
+
+}
+
+aside article{
+    right: 1rem;
+}
+
+
+
+.fech{
+    text-decoration:black;
+}
+
+
+.form-container {
+    background: #fff;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 10px 0px 20px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+    width: 100%;
+}
+
+.form-group {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.form-group input {
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.form-group label {
+    position: absolute;
+    top: 12px;
+    left: 10px;
+    color: #7b7b7b;
+    transition: 0.3s;
+}
+
+.form-group input:focus + label,
+.form-group input:valid + label {
+    top: -10px;
+    font-size: 12px;
+    color: #5264AE;
+}
+textarea{
+    width: 100%;
+    height: 9rem;
+}
+
+button {
+    background-color: #00a7e4;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+}
+button:hover {
+    background-color: #00e923;
+    color: black;
+}
+
+.fot{
+    height: 100%;
+    position: relative;
+    background-color: black;
+    color: white;
+    text-align: center;
+    bottom: 0;
+}
+ 
+
+footer div a{
+    text-decoration: none;
+    color: rgb(18, 195, 249);
+}
+footer{
+    position: sticky;
+    bottom: 0;
+    font-size: 1.2em;
+    padding: 1rem;
+}

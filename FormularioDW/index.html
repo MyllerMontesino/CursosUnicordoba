@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+</head>
+
+<body>
+    <h1>FORMULARIO MYLLER MONTESINO</h1>
+    <form>
+        <label for="number">Campo para ingresar números con máximo 10 caracteres:</label>
+        <input type="number" id="number" name="number" maxlength="10">
+        <hr>
+
+        <label for="text1">Primer campo para ingresar texto con máximo 40 caracteres:</label>
+        <input type="text" id="text1" name="text1" maxlength="40">
+
+        <label for="text2">Segundo campo para ingresar texto con máximo 40 caracteres:</label>
+        <input type="text" id="text2" name="text2" maxlength="40">
+        <hr>
+
+        <label for="multiline">Campo para ingresar texto multi línea con máximo 200 caracteres (3 filas):</label>
+        <textarea id="multiline" name="multiline" maxlength="200" rows="3"></textarea>
+        <hr>
+
+        <label for="date">Campo para ingresar fecha:</label>
+        <input type="date" id="date" name="date">
+        <hr>
+
+        <label for="time">Campo para ingresar hora:</label>
+        <input type="time" id="time" name="time">
+        <hr>
+
+        <label for="checkbox">Campo que permite seleccionar una casilla:</label>
+        <input type="checkbox" id="checkbox" name="checkbox">
+        <hr>
+
+        <label>Opciones (seleccione una):</label>
+        <input type="radio" id="option1" name="radio" value="option1"><label for="option1">Opción 1</label>
+        <input type="radio" id="option2" name="radio" value="option2">
+        <label for="option2">Opción 2</label>
+        <input type="radio" id="option3" name="radio" value="option3">
+        <label for="option3">Opción 3</label>
+        <hr>
+
+        <label for="color">Campo para seleccionar colores:</label>
+        <input type="color" id="color" name="color">
+        <hr>
+
+        <label for="email">Campo para ingresar email:</label>
+        <input type="email" id="email" name="email">
+        <hr>
+
+        <label for="dropdown">Campo lista desplegable:</label>
+        <select id="dropdown" name="dropdown">
+            <option value="opcion1">Opción 1</option>
+            <option value="opcion2">Opción 2</option>
+            <option value="opcion3">Opción 3</option>
+        </select>
+        <hr>
+
+        <label for="multiselect">Campo lista desplegable que puede seleccionar varias opciones:</label>
+        <select id="multiselect" name="multiselect" multiple>
+            <option value="opcion1">Opción 1</option>
+            <option value="opcion2">Opción 2</option>
+            <option value="opcion3">Opción 3</option>
+        </select>
+        <hr>
+
+        <label for="search">Campo de entrada de texto que permite buscar coincidencias:</label>
+        <input type="text" id="search" name="search">
+        <hr>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+
+</html>
+
+
+
+

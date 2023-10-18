@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+form {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+h1{
+    text-align: center;
+}
+
+input[type="text"],
+input[type="number"],
+textarea,
+select,
+input[type="date"],
+input[type="time"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
